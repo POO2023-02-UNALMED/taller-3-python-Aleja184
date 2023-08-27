@@ -1,6 +1,6 @@
 class Control:
     def __init__(self):
-        self._tv
+        self._tv = 0
  
     def canalUp(self):
         self._tv.canalUp()
@@ -29,3 +29,9 @@ class Control:
 
     def getTv(self):
         return self._tv
+    
+    def setCanal(self,canal):
+        self._tv.setCanal(canal)
+
+    def setVolumen(self,volumen):
+        self._tv.setVolumen(volumen)
